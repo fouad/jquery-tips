@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>jquery-tips - Demo page</title>
+
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="lib/jquery-tips.css">
+
+  <link rel="stylesheet" type="text/css" href="example.css">
+
+</head>
+<body>
+
+  <h1>jquery-tips</h1>
+  <h2>Just another jQuery plugin for tooltips</h2>
+
+  <!-- docs -->
+
+  <h4>Something to keep in mind</h4>
+
+  <p>You can't use this plugin on an element that doesn't allow nested elements - like images. Instead, use it on the parent container as the complex example shows.</p>
+
+  <!-- demos -->
+
+  <div class="demos">
+
+    <h3>Simple</h3>
+
+    <pre>
+      <p>Example sentence with a <u class="tip" data-tip="Meta" >tooltip</u> in the middle of a sentence.</p>
+    </pre>
+
+    <p>Example sentence with a <u class="tip" data-tip="Meta" >tooltip</u> in the middle of a sentence.</p>
+
+    <h3>Complex</h3>
+
+
+    <h3>Positioning</h3>
+
+
+    <h3>Theming</h3>
+
+  </div>
+
+  <div class="built-by">
+    <h4>Built by</h4>
+    <div class="pfps-wrapper">
+      <a href='http://fouad.co' class="tip" data-tip="Fouad Matin">
+        <img src="https://gravatar.com/avatar/8b5fd7b1c5f69dc7502909c3ce3f9840?s=70" alt="">
+      </a>
+      <a href='http://jackhanford.com' class="tip" data-tip="Jack Hanford">
+        <img src="https://gravatar.com/avatar/194e8d62c38b487ec0744d2ccc0931fc?s=70" alt="">
+      </a>
+    </div>
+  </div>
+
+  <!-- vendor -->
+  <script src="lib/vendor/jquery/jquery.min.js"></script>
+
+  <!-- jquery-tips -->
+  <script src="lib/jquery-tips.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $('.tip').tips();
+    });
+  </script>
+</body>
+</html>
