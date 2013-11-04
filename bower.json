@@ -1,0 +1,16 @@
+{
+  "name": "jquery-tips",
+  "version": "0.1.0",
+  "main": [
+    "./lib/jquery.tips.js",
+    "./lib/jquery.tips.css"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "lib/bower_components"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0"
+  }
+}
