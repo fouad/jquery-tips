@@ -57,7 +57,7 @@
     <select class="themes">
       <option value="">Default (Google)</option>
       <option value="facebook">Facebook</option>
-      <option value="ios">iOS</option>
+      <option value="youtube">Youtube</option>
     </select>
 
   </div>
@@ -86,6 +86,16 @@
   <script>
     $(document).ready(function() {
       $('.tip').tips();
+
+      $('.themes').change(function() {
+        var theme = $(this).val();
+
+        if (theme === "") {
+          return $(".theme-link").attr('href', null);
+        }
+
+        return $(".theme-link").attr('href', 'lib/themes/' + theme + ".css");
+      });
     });
   </script>
 </body>

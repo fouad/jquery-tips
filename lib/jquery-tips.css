@@ -1,12 +1,3 @@
-
-/*
-Tipr drop 1.0
-Copyright (c) 2013 Tipue
-Tipr is released under the MIT License
-http://www.tipue.com/tipr
-*/
-
-
 .tips-content {
   font: 13px/1.7 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fff;
@@ -15,7 +6,6 @@ http://www.tipue.com/tipr
   padding: 4px 11px;
   background: #2a2a2a;
 }
-
 
 .tips-container-bottom {
   display: none;
