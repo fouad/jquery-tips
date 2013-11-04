@@ -28,7 +28,7 @@ http://www.tipue.com/tipr
 .tips-container-top {
   display: none;
   position: absolute;
-  margin-top: -75px;
+  margin-top: 0px;
   z-index: 1000;
   white-space: nowrap;
 }
@@ -45,6 +45,7 @@ http://www.tipue.com/tipr
 	content: "";
 	height: 0;
 	width: 0;
+  margin-top: 28px;
 }
 
 .tips-caret-top:after {
