@@ -1,0 +1,46 @@
+.tips-content {
+  position: relative;
+  padding: 6px;
+  color: #FFF;
+  background: #333;
+  font-size: 11px;
+  font-weight: bold;
+  white-space: nowrap;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,.25);
+  -ms-box-shadow: 0 1px 1px rgba(0,0,0,.25);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  opacity: 0.75;
+}
+
+.tips-container-bottom .tips-content {
+  box-shadow: 0px -1px rgba(0,0,0,0.1);
+}
+
+.tips-caret-bottom:before {
+  position: absolute;
+  z-index: 2147483647;
+  bottom: -1px;
+  width: 0;
+  height: 0;
+  vertical-align: bottom;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-width: 5px 5px 0 5px;
+  border-top-color: #000;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+}
+.tips-caret-bottom:after {
+  border-width: 8px;
+  left: 50%;
+  margin-left: -8px;
+  vertical-align: bottom;
+}
+.tips-caret-top, .tips-caret-bottom {
+  position: relative;
+  background: #3d3d3d;
+  opacity: 0.8;
+}
