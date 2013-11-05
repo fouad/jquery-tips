@@ -28,7 +28,7 @@
 	background: #2a2a2a;
 }
 
-.tips-caret-top:after, .tips-caret-top:before {
+.tips-caret-top:after {
 	position: absolute;
 	border: solid transparent;
 	top: 100%;
@@ -51,7 +51,7 @@
 	margin-left: -9px;
 }
 
-.tips-caret-bottom:after, .tips-caret-bottom:before {
+.tips-caret-bottom:after {
 	position: absolute;
 	border: solid transparent;
 	bottom: 100%;
@@ -65,10 +65,4 @@
 	border-width: 8px;
 	left: 50%;
 	margin-left: -8px;
-}
-
-.tips-caret-bottom:before {
-	border-width: 9px;
-	left: 50%;
-	margin-left: -9px;
 }
