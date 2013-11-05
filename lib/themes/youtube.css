@@ -19,27 +19,25 @@
 .tips-container-bottom .tips-content {
   box-shadow: 0px -1px rgba(0,0,0,0.1);
 }
-/*
-.tips-caret-bottom:before {
-  position: absolute;
-  z-index: 2147483647;
-  bottom: -1px;
-  width: 0;
-  height: 0;
-  vertical-align: bottom;
-  border: 1px solid rgba(0, 0, 0, 0);
-  border-width: 5px 5px 0 5px;
-  border-top-color: #000;
-  opacity: 0.75;
-}*/
+
+.tips-caret-top:after {
+  border-top-color: #333;
+  border-width: 8px;
+  left: 50%;
+  margin-left: -8px;
+  opacity: 0.95;
+}
+
 .tips-caret-bottom:after {
   border-width: 8px;
   left: 50%;
   margin-left: -8px;
   vertical-align: bottom;
+  opacity: 0.95;
 }
+
 .tips-caret-top, .tips-caret-bottom {
   position: relative;
-  background: #3d3d3d;
   opacity: 0.95;
+  margin-top: 4px;
 }
