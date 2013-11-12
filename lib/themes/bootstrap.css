@@ -29,6 +29,7 @@
 
 .tips-caret-top:after {
   margin-top: 19px;
+  padding-bottom: 9px;
   z-index: 100;
 }
 
