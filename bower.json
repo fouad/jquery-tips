@@ -1,9 +1,13 @@
 {
   "name": "jquery-tips",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": [
     "./lib/jquery.tips.js",
-    "./lib/jquery.tips.css"
+    "./lib/jquery.tips.css",
+    "./lib/themes/bootstrap.css",
+    "./lib/themes/facebook.css",
+    "./lib/themes/flatui.css",
+    "./lib/themes/youtube.css"
   ],
   "ignore": [
     "**/.*",
